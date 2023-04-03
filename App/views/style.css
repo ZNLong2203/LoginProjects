@@ -4,8 +4,12 @@ img {
     width: 100%;
 }
 
-input {
+.login {
     background-color: whitesmoke;
+    height: 600px;
+    width: 550px;
+    border-radius: 10%;
+    bottom: 200px;
 }
 
 .login-form {
