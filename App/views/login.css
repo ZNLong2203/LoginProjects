@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+}
+
+body {
+    background: linear-gradient(90deg, #C7C5F4, #776BCC);	
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen {
+    position: relative;
+    background: linear-gradient(90deg, #5D54A4, #7C78B8);		
+    justify-content: center;
+    height: 600px;
+    width: 450px;
+    box-shadow: 0px 0px 24px #5C5696;
+    top: 300px;
+}
+
+.screen__content {
+    position: absolute;
+    z-index: 1;
+}
+
+.screen__background {		
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+	-webkit-clip-path: inset(0 0 0 0);
+	clip-path: inset(0 0 0 0);	
+}
+
+.screen__background__shape {
+	transform: rotate(45deg);
+	position: absolute;
+}
+
+.screen__background__shape1 {
+	height: 520px;
+	width: 520px;
+	background: #FFF;	
+	top: -50px;
+	right: 120px;	
+}
+
+.screen__background__shape2 {
+	height: 220px;
+	width: 220px;
+	background: #6C63AC;	
+	top: -172px;
+	right: 0;	
+}
+
+.screen__background__shape3 {
+	height: 540px;
+	width: 190px;
+	background: linear-gradient(270deg, #5D54A4, #6A679E);
+	top: -24px;
+	right: 0;	
+}
+
+.screen__background__shape4 {
+	height: 400px;
+	width: 200px;
+	background: #7E7BB9;	
+	top: 420px;
+	right: 50px;	
+}
+
+.login-form {
+    position: relative;
+    top: 160px;
+    left: 20px;
+}
+
+.login__field {
+    position: relative;
+}
+
+.login__icon {
+    position: absolute;
+    padding: 10px 200px;
+}
+
+input {
+    display: block;
+    width: 50%;
+    margin-bottom: 25px;
+    height: 35px;
+    border: none;
+    background: none;
+    padding: 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.in {
+    justify-content: center;
+    display: flex;
+    border-bottom: 2px solid #D1D1D4;
+}
+
+.inSubmit {
+    margin: 10px auto;
+    background: none;
+    border: 1px solid #6A679E;
+    border-radius: 20px;
+    transition: border 0.1s ease;
+}
+
+.inSubmit:hover {
+    border: 2px solid #6A679E;
+}
+
+.in:active,
+.in:focus,
+.in:hover {
+	outline: none;
+	border-bottom-color: #6A679E;
+}
+
+/* .nav {
+    position: sticky;
+    background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+} */
