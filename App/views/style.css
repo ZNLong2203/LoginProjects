@@ -1,0 +1,41 @@
+img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+input {
+    background-color: whitesmoke;
+}
+
+.login-form {
+    position: relative;
+    display:flex;
+    justify-content: center;
+    top: 300px;
+}
+
+.nav {
+    position: sticky;
+    background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+}
+
+.task-bar {
+    position: relative;
+}
+
+.in {
+    justify-content: center;
+    display: flex;
+}
+
+.inSubmit {
+    margin: 10px auto;
+    background-color: grey;
+}
+
+.inSubmit:hover {
+    background-color: blueviolet;
+}
