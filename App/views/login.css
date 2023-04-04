@@ -25,7 +25,7 @@ body {
     height: 600px;
     width: 450px;
     box-shadow: 0px 0px 24px #5C5696;
-    top: 300px;
+    /* top: 300px; */
 }
 
 .screen__content {
@@ -93,7 +93,7 @@ body {
 
 .login__icon {
     position: absolute;
-    padding: 10px 200px;
+    padding: 0px 200px;
 }
 
 input {
@@ -114,6 +114,13 @@ input {
     border-bottom: 2px solid #D1D1D4;
 }
 
+.in:active,
+.in:focus,
+.in:hover {
+    outline: none;
+    border-bottom-color: #6A679E;
+}
+
 .inSubmit {
     margin: 10px auto;
     background: none;
@@ -126,11 +133,14 @@ input {
     border: 2px solid #6A679E;
 }
 
-.in:active,
-.in:focus,
-.in:hover {
-	outline: none;
-	border-bottom-color: #6A679E;
+.login__other {
+    position: absolute;
+}
+
+i {
+    display: flex;
+    position: relative;
+    margin: 10px;
 }
 
 /* .nav {
